@@ -112,3 +112,17 @@ li a:hover {
     background-size: cover;
     text-align: center;
 }
+
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+    transform-origin: left;
+}
+
+html.is-animating .transition-fade{
+    opacity: 1;
+}
+
+html.is-leaving .transition-fade{
+    opacity: 0;
+}
