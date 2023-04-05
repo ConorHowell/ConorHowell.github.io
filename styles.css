@@ -14,16 +14,7 @@
 
 
 
-.image {
-    width: 100%;
-    height: auto;
-    background-position: center;
-    background-image: url(images/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    background-attachment: fixed;
-}
+
 
 .image-overlay {
     width: 100%;
@@ -51,7 +42,7 @@ h1{
 p{
     font-family: 'ubuntu-light';
     color: white;
-    font-size: 20;
+    font-size: 20px;
     height: 300px;
     width: 600px;
     position: fixed;
@@ -72,14 +63,14 @@ p{
 .site-font-2 {
     font-family: 'ubuntu-light';
     color: white;
-    font-size: 20;
+    font-size: 20px;
 
 }
 
 .site-font-3 {
     font-family: 'ubuntu-light';
     color: white;
-    font-size: 15;
+    font-size: 15px;
 
 }
 
@@ -139,8 +130,8 @@ html.is-leaving .transition-fade{
     margin:auto;
     opacity: 1;
     background-image: url(images/Discord-Logo.png);
-    width: 300;
-    height: 100;
+    width: 300px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -172,8 +163,8 @@ html.is-leaving .transition-fade{
     margin:auto;
     opacity: 1;
     background-image: url(images/google-calendar-2.png);
-    width: 300;
-    height: 100;
+    width: 300px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -204,8 +195,8 @@ html.is-leaving .transition-fade{
     margin:auto;
     opacity: 1;
     background-image: url(images/django-logo-negative.png);
-    width: 300;
-    height: 100;
+    width: 300px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;

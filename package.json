@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "swup": "^3.0.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
   }
 }

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -11,45 +12,43 @@
 
 <!-- Landing Page -->
 <body>
-	<div class="image">
-		<div class="darken">
-			
-			
-			<!-- NavBar -->
-			<ul class="site-font-2">
-				<li><a href="/index.html">Home</a></li>
-				<li><a href="/about.html">About</a></li>
-				<li><a href="/work.html">Work</a></li>
-				<li><a href="/resume.html">Resume</a></li>
-				<li><a href="/contact.html">Contact</a></li>
-			</ul> 
-			<!-- NavBar -->
-			<main id="swup" class="transition-fade">
-			<!-- Header -->
-			<h2 class="site-font">
-				Work
-			</h2></br>
-			<h2 class="site-font-2">A collection of my personal and professional work.</h2>
-            <pre> </pre>
-			<!-- Header -->
-            <div class="work-image"><h3><a href="https://github.com/ConorHowell/code_box", class = 'site-font-2', target="blank">Discord bot for automation of daily tasks</a></h3></div>
-
-            <pre> </pre>
-
-            <div class="work-image-2"><h3><a href="https://github.com/ConorHowell/AutomatedCalendar", class = 'site-font-2', target="blank">An automated Google Calendar using Google API</a></h3></div>
-
-            <pre> </pre>
-
-            <div class="work-image-3"><h3><a href="https://github.com/ConorHowell/Portfolio", class = 'site-font-2', target="blank">Python and Django based Portfolio</a></h3></div>
-            
-		</main>
+	<div class="relative bg-center" style="background-image: url('images/bg.jpg'); background-size: cover;">
+		<div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+			<div class="absolute bottom-0 left-0 w-full text-center pb-4">
+			</div>
+			<div class="image-overlay">
+				<!-- NavBar -->
+				<div>
+					<ul class="site-font-2 text-white"> <!-- added "text-white" class -->
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="/about.html">About</a></li>
+						<li><a href="/work.html">Work</a></li>
+						<li><a href="/resume.html">Resume</a></li>
+						<li><a href="/contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<br>
+				<div>
+					<main id="swup" class="transition-fade">
+					<!-- Header -->
+					<h2 class="site-font text-white"> <!-- added "text-white" class -->
+						Work
+					</h2></br>
+					<h2 class="site-font-2 text-white dark:bg-gray-700"> <!-- added "text-white" and "dark:bg-gray-700" classes -->
+						A collection of my personal and professional work.
+					</h2>
+					<pre> </pre>
+					<!-- Header -->
+					<div class="work-image"><h3><a href="https://github.com/ConorHowell/code_box" class="site-font-2 text-white" target="blank">Discord bot for automation of daily tasks</a></h3></div>
+					<pre> </pre>
+					<div class="work-image-2"><h3><a href="https://github.com/ConorHowell/AutomatedCalendar" class="site-font-2 text-white" target="blank">An automated Google Calendar using Google API</a></h3></div>
+					<pre> </pre>
+					<div class="work-image-3"><h3><a href="https://github.com/ConorHowell/Portfolio" class="site-font-2 text-white" target="blank">Python and Django based Portfolio</a></h3></div>
+					</main>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
 <!-- Landing Page -->
-
-
-
-
-
 </html>
