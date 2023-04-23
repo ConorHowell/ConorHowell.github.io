@@ -3,10 +3,16 @@
     src: url('fonts/RetroSignature-2ODoK.ttf')
 }
 
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-size: cover;
     background-image: url("images/bg.jpg");
-    background-position: center bottom 400px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
   
 .navigate {
