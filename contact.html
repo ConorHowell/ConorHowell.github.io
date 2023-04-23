@@ -1,49 +1,31 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script defer src="https://unpkg.com/swup@3" type="module"></script>
-	<script defer src="script.js" type="module"></script>
-	<title>Conor H Portfolio</title>
-	<link rel="stylesheet" href="/styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="flex flex-col items-center justify-center h-screen">
+      <h1 class="text-4xl font-bold text-white">Conor Howell</h1>
+      <div class="flex flex-row justify-center space-x-4 mt-10">
+        <a href="/about.html" class="text-white font-semibold navigate rounded lg-box text-lg">About</a>
+        <a href="/work.html" class="text-white font-semibold navigate rounded lg-box text-lg">Work</a>
+        <a href="/resume.html" class="text-white font-semibold navigate rounded lg-box text-lg">Resume</a>
+        <a href="/contact.html" class="text-white font-semibold navigate rounded lg-box text-lg">Contact</a>
+      </div>
+    </div>
 
-<!-- Landing Page -->
-<body>
-	<div class="relative bg-center" style="background-image: url('images/bg.jpg'); background-size: cover;">
-		<div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-		<div class="absolute bottom-0 left-0 w-full text-center pb-4">
-		</div>
-		<div class="image-overlay">
-		  <!-- NavBar -->
-		  <div>
-			<ul class="site-font-2">
-			  <li><a href="/index.html">Home</a></li>
-			  <li><a href="/about.html">About</a></li>
-			  <li><a href="/work.html">Work</a></li>
-			  <li><a href="/resume.html">Resume</a></li>
-			  <li><a href="/contact.html">Contact</a></li>
-			</ul>
-		  </div>
-		  <br>
-		  <div>
-			<main id="swup" class="transition-fade">
-			<!-- Contact -->
-			<h1 class="site-font">
-				Contact Me
-			</h1>
-            <p>conorbhowell@gmail.com <br><br><a href="https://www.linkedin.com/in/conor-howell/", class = 'site-font-2', target="blank">Linkedin | </a><a href="https://github.com/ConorHowell", class = 'site-font-2', target="blank">GitHub</a></p>
-			<!-- Contact -->
-
-			</main>
-		</div>
-	</div>
-</body>
-<!-- Landing Page -->
-
-
-
-
-
+    <div class="bg-gray-200 py-20">
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">About Me</h2>
+        <p class="text-gray-700 leading-relaxed text-lg max-w-2xl text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales dolor mi, non euismod neque tristique sed. Nulla facilisi. Nulla auctor ex quis purus facilisis, sed rhoncus massa efficitur. Aenean sit amet dictum leo. Praesent lobortis fermentum purus vel vehicula. Nullam vitae urna sed lectus fringilla tristique ac et est. Aliquam ullamcorper convallis faucibus. Etiam vitae aliquam enim. Sed euismod nulla non eros pretium, non dictum tellus posuere. Donec ac justo nunc.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

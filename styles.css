@@ -1,228 +1,61 @@
-@font-face {
-    font-family: 'ubuntu-regular';
-    src: url(fonts/Ubuntu-Regular.ttf);
-}
-@font-face {
-    font-family: 'ubuntu-light';
-    src: url(fonts/Ubuntu-Light.ttf);
+@font-face{
+    font-family: 'Retro';
+    src: url('fonts/RetroSignature-2ODoK.ttf')
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-
-.image-overlay {
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.493);
-    background-repeat: no-repeat;
+body {
     background-size: cover;
-    text-align: center;
-}
-
-h1{ 
-    height: 150px;
-    width: 600px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -300px;
-    border: 1px solid white
-}
-
-
-
-p{
-    font-family: 'ubuntu-light';
-    color: white;
-    font-size: 20px;
-    height: 300px;
-    width: 600px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -29px;
-    margin-left: -300px;
-}  
-
-
-.site-font {
-    font-family: 'ubuntu-regular';
-    color: white;
-    font-size: 45px;
-    
-  }
-
-.site-font-2 {
-    font-family: 'ubuntu-light';
-    color: white;
-    font-size: 20px;
-
-}
-
-.site-font-3 {
-    font-family: 'ubuntu-light';
-    color: white;
-    font-size: 15px;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #33333300;
-    display: flex;
+    background-image: url("images/bg.jpg");
+    background-position: center bottom 400px;
 }
   
-li {
-    float: left;
-}
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-
-li a:hover {
-    background-color: #111;
+.navigate {
+    border: 1px solid blue;
+    transition: background-color 0.2s ease;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #222;
+    padding: 0.5rem 1rem;  
+    text-shadow: 
+    0 0 5px #00f,
+    0 0 5px #f00;
 }
 
-
-
-.darken {
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.705);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+.navigate:hover {
+    background-color: blue;
 }
 
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
-    transform-origin: left;
+.lg-box {
+    padding: 1rem 2rem;
+    font-size: 1rem;
 }
 
-html.is-animating .transition-fade{
-    opacity: 1;
+.about-container {
+    background-color: #eee;
+    padding: 2rem;
 }
 
-html.is-leaving .transition-fade{
-    opacity: 0;
+.about-container h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
 }
 
-.work-image {
-    margin:auto;
-    opacity: 1;
-    background-image: url(images/Discord-Logo.png);
-    width: 300px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    transition: .5s;
+.about-container p {
+    font-size: 1.2rem;
+    color: #444;
 }
 
-.work-image:hover {
-    opacity: 1;
-    box-shadow: 0 0 0 200px rgb(0, 0, 0) inset;
+h1{
+    font-family: 'Retro';
 }
 
-.work-image h3{
-    font-family:'ubuntu-light';
-    opacity: 0;
-    color:white;
+h2{
+    font-family: 'Retro';
 }
 
-.work-image:hover h3{
-    font-family:'ubuntu-light';
-    opacity: 1;
-    color:white;
-    transition: .5s;
-}
-
-.work-image-2 {
-    margin:auto;
-    opacity: 1;
-    background-image: url(images/google-calendar-2.png);
-    width: 300px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    transition: .5s;
-}
-.work-image-2:hover {
-    opacity: 1;
-    box-shadow: 0 0 0 200px rgb(0, 0, 0) inset;
-}
-
-.work-image-2 h3{
-    font-family:'ubuntu-light';
-    opacity: 0;
-    color:white;
-}
-
-.work-image-2:hover h3{
-    font-family:'ubuntu-light';
-    opacity: 1;
-    color:white;
-    transition: .5s;
-}
-
-.work-image-3 {
-    margin:auto;
-    opacity: 1;
-    background-image: url(images/django-logo-negative.png);
-    width: 300px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    transition: .5s;
-}
-.work-image-3:hover {
-    opacity: 1;
-    box-shadow: 0 0 0 200px rgb(0, 0, 0) inset;
-}
-
-.work-image-3 h3{
-    font-family:'ubuntu-light';
-    opacity: 0;
-    color:white;
-}
-
-.work-image-3:hover h3{
-    font-family:'ubuntu-light';
-    opacity: 1;
-    color:white;
-    transition: .5s;
-}
-
-pre{
-    line-height: 100px;
+.clone {
+  text-shadow: 
+    0 0 5px #00f, /* Blue shadow */
+    0 0 5px #f00; /* Red shadow */
 }
