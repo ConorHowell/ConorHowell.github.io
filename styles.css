@@ -21,11 +21,19 @@ body {
     font-size: 1rem;
     color: #fff;
     background-color: #222;
-    padding: 0.5rem 1rem;  
-    text-shadow: 
+    padding: 0.5rem 1rem;
+    text-shadow:
     0 0 5px #00f,
     0 0 5px #f00;
-}
+    }
+    
+    @media screen and (max-width: 600px) {
+    .navigate {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    text-shadow: none;
+    }
+    }
 
 .navigate:hover {
     background-color: blue;
